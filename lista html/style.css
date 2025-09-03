@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(4, 11, 194);
+}
+.lista{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}  
+#imagem{
+    border-radius: 20px;
+}
