@@ -1,0 +1,47 @@
+/* Deixa o fundo escuro e texto claro */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Cabeçalho fixo no topo */
+.topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  padding: 10px;
+}
+
+/* Lista do menu em linha */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links do menu */
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hover: muda a cor ao passar o mouse */
+.menu a:hover {
+  color: yellow;
+}
+
+/* Espaço no topo para o conteúdo não ficar escondido */
+main {
+  padding-top: 60px;
+}
+
+/* Cada seção */
+.secao {
+  padding: 50px;
+}
