@@ -1,0 +1,21 @@
+/* Centraliza todo o conteúdo da página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;          /* altura total da tela */
+  background-color: #f0f0f0;  /* cor de fundo da página */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo do cartão */
+.cartao {
+  background-color: #60a5fa; /* cor de fundo do cartão */
+  color: white;             /* cor do texto */
+  border-radius: 10px;      /* bordas arredondadas */
+  padding: 20px 40px;       /* espaço interno */
+  text-align: center;       /* centraliza texto */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* sombra leve */
+}
+
